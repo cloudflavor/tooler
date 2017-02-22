@@ -29,3 +29,20 @@ Timezone Europe/Prague does not exist in container, not updating container timez
 rootfs:~ # which nload
 /usr/bin/nload
 ```
+
+Controlling your container is easy as well with `machinectl`.
+
+```
+codeflavor:~$ machinectl list
+MACHINE CLASS     SERVICE       
+rootfs  container systemd-nspawn
+
+1 machines listed.
+codeflavor:~$
+```
+
+Perform a wider range of operations with a more privilleged container.
+_see `man capabilities` for more._
+```
+sudo systemd-nspawn -D rootfs/ --capability CAP_SYS_ADMIN
+```

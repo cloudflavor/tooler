@@ -5,6 +5,8 @@ clean:
 	@echo 'Cleaning out generated rootfs artifacts if they exist...'
 	@sudo rm -rf rootfs/*
 	@sudo rm -rf rootfs/.dockerenv
+	@docker rmi -f ${IMAGE_NAME}:rootfs || true
+
 # creates the rootfs needed to distribute the plugin.
 build:
 	@echo 'Removing ${IMAGE_NAME}:rootfs image if it exists'

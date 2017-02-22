@@ -1,6 +1,8 @@
 *~
 rootfs/.dockerenv
 rootfs/go
+rootfs/boot
+rootfs/selinux
 rootfs/anaconda-post.log
 rootfs/bin
 rootfs/dev
@@ -21,3 +23,5 @@ rootfs/sys
 rootfs/tmp
 rootfs/usr
 rootfs/var
+
+.#rootfs.lck
