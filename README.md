@@ -1,5 +1,8 @@
 bootstrap running containers with systemd-nspawn with the help of Docker.  
 
+First edit the `Dockerfile` to your liking - by default its only a bare docker
+ hub opensuse:leap image.
+
 `sudo make build` - This will build the `Dockerfile` creating a systemd-nspawn
 compatible root file system that you can then use to spawn a new container.  
 
