@@ -106,3 +106,8 @@ _see `man capabilities` for more._
 ```
 sudo systemd-nspawn -D rootfs/ --capability CAP_SYS_ADMIN
 ```
+
+
+Reference:  
+https://seanmcgary.com/posts/nsenter-a-systemd-nspawn-container  
+https://github.com/gabx/thetradinghall/wiki/Systemd-nspawn-container  
