@@ -14,9 +14,4 @@ Optional:
 * dstat -
 * delve -
 * gdb
-* rust-gdb - 
-
-#### Ubuntu
-
-
-#### Centos
+* rust-gdb -
