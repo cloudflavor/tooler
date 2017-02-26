@@ -1,4 +1,4 @@
-IMAGE_NAME=codeflavor/systemd-nspawn
+IMAGE_NAME=codeflavor/nspawn-toolbox
 
 .PHONY: clean
 clean:
