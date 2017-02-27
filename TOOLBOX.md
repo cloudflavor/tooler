@@ -13,5 +13,5 @@ Optional:
 * slurm -
 * dstat -
 * delve -
-* gdb
+* gdb -
 * rust-gdb -

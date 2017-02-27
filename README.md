@@ -4,7 +4,16 @@ Bootstrap running debugging containers with systemd-nspawn.
 
 #### Using it remote, Dockerless
 
-Pull the tar.gz  [release](https://github.com/codeflavor/nspawn-toolbox/releases).
+
+Unfortunately, ` machinectl pull-dkr` was
+[deprecated](https://github.com/systemd/systemd/commit/b43d75c378d919900e5c1e82a82e3e17dd3de9f9)
+because the systemd implementation couldn't keep up with the
+forever-breaking-api of docker, so pulling docker images  directly from a docker
+registry is no longer possible (or might be possible but wouldn't work
+properly).
+
+The way this works is to pull the tar.gz
+[release](https://github.com/codeflavor/nspawn-toolbox/releases).
 
 ```
 $ machinectl pull-tar https://github.com/codeflavor/nspawn-toolbox/releases/download/v0.0.1/opensuse.tar.gz
