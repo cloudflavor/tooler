@@ -1,6 +1,6 @@
 Nspawn-toolbox
 ---
-Bootstrap running debugging containers with systemd-nspawn.  
+Bootstrap debugging containers with systemd-nspawn.  
 
 #### Using it remote, Dockerless
 
