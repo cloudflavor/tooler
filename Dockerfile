@@ -6,4 +6,5 @@ RUN zypper --non-interactive in -y bind-utils \
     htop \
     nload \
     gdb \
+    dbus-1 \
     && zypper clean

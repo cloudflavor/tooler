@@ -25,3 +25,4 @@ rootfs/usr
 rootfs/var
 
 .#rootfs.lck
+openSUSE.tar.gz
